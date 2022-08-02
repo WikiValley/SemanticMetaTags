@@ -24,6 +24,11 @@
 	"ExtensionFunctions": [
 		"SemanticMetaTags::onExtensionFunction"
 	],
-	"load_composer_autoloader": true,
+	"AutoloadNamespaces": {
+		"SMT\\": "src/"
+	},
+	"AutoloadClasses": {
+		"SemanticMetaTags": "SemanticMetaTags.php"
+	},
 	"manifest_version": 1
 }
